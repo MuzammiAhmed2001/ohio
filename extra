@@ -1,0 +1,110 @@
+ <div class="row">
+
+
+            <div class="section4-main ">
+                <div class="sec4-con1">
+                    <img src="assets/img/oh__img92.jpg" class="w-100 img-fluid" alt="">
+                </div>
+
+                <div class="sec4-con2">
+                    <p class="sec2-play"><i
+                            class="fa-solid fa-play d-flex align-items-center justify-content-center rounded-circle me-2 mb-3"></i><span
+                            class="sec4-span">Forward-thinking team of designers and developers.</span>
+                    </p>
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    Website & Mobile App Design
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body fs-6">Using year-over-year design approaches and latest
+                                    techs, we
+                                    will ensure that your new website will be visible, accessible, and treads lightly.
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                        Motion Graphics & Animation
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body fs-6">Cepteur sint occaecat cupidatat proident, taken
+                                        possession of my entire soul, like these sweet mornings of spring which I enjoy
+                                        with my whole.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                        aria-controls="flush-collapseThree">
+                                        User Experience
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body fs-6">Cepteur sint occaecat cupidatat proident, taken
+                                        possession of my entire soul, like these sweet mornings of spring which I enjoy
+                                        with my whole..</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- section 4 end -->
+
+            <!-- section 5 start -->
+            <div class="container">
+                <div class="section5-main">
+                    <p class="sec3-p4 fs-6">Capibilities</p>
+                    <p class="sec3-p5 fs-2 w-25 fw-bolder">The full-service
+                        studio with art &
+                        technologies.</p>
+                </div>
+            </div>
+            <!-- section 5 end -->
+
+
+            .row>* {
+                flex-shrink: 0;
+                width: 100%;
+                max-width: 100%;
+                padding-right: calc(var(--bs-gutter-x) * 0);
+                padding-left: calc(var(--bs-gutter-x) * .0);
+                margin-top: var(--bs-gutter-y);
+            }
+            
+            .section4-main {
+                display: grid;
+                grid-template-columns: 60% 40%;
+            }
+            
+            .sec4-con1 img {
+                height: 340px;
+            }
+            
+            .sec4-con2 {
+                padding: 0px 100px;
+            }
+            
+            .sec4-span {
+                font-size: 30px;
+                line-height: 1;
+                margin-top: 30px !important;
+            }
+            
+            .a-i {
+                width: 100%;
+            }
