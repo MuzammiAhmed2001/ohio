@@ -656,6 +656,10 @@ body {
     transition: .2s ease;
 }
 
+.s10-mail {
+    grid-template-columns: 75% 25%;
+}
+
 .s10-email {
     border: none;
     border-top-left-radius: 5px;
@@ -663,7 +667,7 @@ body {
     background-color: rgb(241, 236, 236);
     font-size: 12px;
     padding: 10px 10px;
-    width: 95%;
+    width: 100%;
     margin: 10px 0px;
 }
 

@@ -1,23 +1,3 @@
-// var totalItems = $('.item').length;
-// var currentIndex = $('div.item.active').index() + 1;
-
-// var down_index;
-// $('.num').html('' + currentIndex + '/' + totalItems + '');
-
-// $(".next").click(function () {
-//     currentIndex_active = $('div.item.active').index() + 2;
-//     if (totalItems >= currentIndex_active) {
-//         down_index = $('div.item.active').index() + 2;
-//         $('.num').html('' + currentIndex_active + '/' + totalItems + '');
-//     }
-// });
-
-// $(".prev").click(function () {
-//     down_index = down_index - 1;
-//     if (down_index >= 1) {
-//         $('.num').html('' + down_index + '/' + totalItems + '');
-//     }
-// });
 document.addEventListener("DOMContentLoaded", function () {
     $(document).ready(function () {
         $(window).scroll(function () { // check if scroll event happened
